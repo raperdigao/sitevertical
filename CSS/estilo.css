@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family= Dosis :wght@200;400 & display=swap');
+
+
+header {
+    width: 1257px;
+    height: 155px;
+    
+   
+
+}
+
+/* *Asperisco é corringa configuração para todo o site Neste: Magin: 0 auto = Vai deixar 0 em cima e embaixo e automático a esquerda e direita. Fica centralizado*/
+* {
+    margin: 0 auto 3px auto;
+}
+
+/* nav {
+    width: 1257px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 5px;
+} */
+
+main {
+    width: 1257px;
+    height: 600px;
+    background-color: #5D0205;
+    display: flex;
+}
+
+main nav {
+    flex: 0.2;
+    background-color: #5D0205;
+    margin: 2px;
+}
+
+main nav h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    background-color: rgb(212, 65, 65);
+}
+
+main nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+main nav a:hover {
+    background-color: rgb(212, 65, 65);
+    text-decoration: underline;
+}
+
+main section {
+    flex: 1;
+    background-color: white;
+    margin: 2px;
+}
+
+section iframe {
+    width: 1100px;
+    height: 596px;
+    border: 0px;
+}
+
+footer {
+    width: 1257px;
+    height: 155px;
+    position: relative;
+}
+
+#image {
+    position: absolute;
+}
+#texto {
+    position: absolute;
+    font-size: 10pt;
+    left: 300px;
+    top: 130px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+#git {
+    position: absolute;
+    left: 615px;
+    top: 0px;
+
+}
+
+#texto a {
+    color: white;
+    text-decoration: none;
+}
+
+table#TabelaLink {
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  /* Remove os espaços dentro da tabela - linha fechada*/
+  margin-left: auto;
+  /*Centraliza a tabela */
+  margin-right: auto;
+  /*Centraliza a tabela */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  color: black;
+ 
+ 
+}
+ 
+table#TabelaLink caption {
+  border: 1px solid #606060;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+}
+ 
+ 
+table#TabelaLink td {
+  border: 1px solid #606060;
+  padding: 5px;
+}

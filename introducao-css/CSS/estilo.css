@@ -1,0 +1,33 @@
+body {
+    margin-left: 30px;
+    font-size: 5px;
+}
+
+p {
+    font-size: 20pt;
+    color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px;
+    border-color: black;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-shadow: 1px;
+
+
+
+}
+
+.propagandas {
+    font-size: 30pt;
+    color: brown;
+    border: 5px;
+    border-color: black;
+
+
+}
+
+h1 {
+    color: pink;
+    font-size: 40px;
+
+}

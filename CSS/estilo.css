@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family= Dosis :wght@200;400 & display=swap');
 
-
+/* Titulo do H1 */
+#titulo{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15pt;
+}
 header {
     width: 1257px;
     height: 155px;
@@ -110,17 +116,21 @@ table#TabelaLink {
   /*Centraliza a tabela */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
   color: black;
+  font-size: 10pt;
+  font-family: 'Dosis', sans-serif;
+  height: 100%;
+ 
  
  
 }
  
-table#TabelaLink caption {
+/* table#TabelaLink caption {
   border: 1px solid #606060;
-  padding: 5px;
+  padding: 2px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-  font-family: 'Lobster', cursive;
-  font-weight: bold;
-}
+ 
+ 
+} */
  
  
 table#TabelaLink td {
